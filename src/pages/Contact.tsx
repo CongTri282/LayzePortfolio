@@ -11,7 +11,7 @@ function Contact() {
             </a>
           </li>
           <li className="contact-list-item">
-            <a href="https://www.linkedin.com/in/layze/" className="contact-link">
+            <a href="www.linkedin.com/in/hoàng-công-trí-võ-a6b7b3346" className="contact-link">
               LinkedIn
             </a>
           </li>
