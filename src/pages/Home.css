@@ -1,0 +1,47 @@
+.home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 150px;
+}
+
+.home-col-image img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 550px;
+  max-height: 660px;
+}
+
+.home-col-content {
+  margin-left: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-heading,
+.home-subheading,
+.home-content {
+  margin: 0; /* Remove the gap between each row */
+}
+
+.home-heading {
+  display: flex;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Suez One; 
+}
+
+.home-subheading {
+  display: flex;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Suez One;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 24px;
+}
