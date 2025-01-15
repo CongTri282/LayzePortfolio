@@ -81,3 +81,9 @@
   color: rgba(106, 0, 206, 0.808);
   transform: scale(1.1);
 }
+
+.nav-link.contact.active {
+  background-color: rgb(184, 120, 245);
+  color: rgba(106, 0, 206, 0.808);
+  transform: scale(1.1);
+}
