@@ -1,3 +1,6 @@
+import { FaLinkedin, FaEnvelope, FaFacebook, FaInstagram, FaGithub } from "react-icons/fa";
+import "./Contact.css";
+
 function Contact() {
   return (
     <section id="contact" className="contact">
@@ -7,12 +10,42 @@ function Contact() {
         <ul className="contact-list">
           <li className="contact-list-item">
             <a href="mailto:layzegot@gmail.com" className="contact-link">
-              Email
+              <FaEnvelope size={35} /> Email: layzegot@gmail.com
             </a>
           </li>
           <li className="contact-list-item">
-            <a href="www.linkedin.com/in/hoàng-công-trí-võ-a6b7b3346" className="contact-link">
-              LinkedIn
+            <a
+              href="https://www.linkedin.com/in/hoang-cong-tri-vo-a6b7b3346/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact-link"
+            >
+              <FaLinkedin size={35} /> LinkedIn: Hoang Cong Tri (Layze) Vo
+            </a>
+          </li>
+          <li className="contact-list-item">
+            <a
+              href="https://www.facebook.com/vohoangcongtri"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact-link"
+            >
+              <FaFacebook size={35} /> Facebook: Công Trí (Layze)
+            </a>
+          </li>
+          <li className="contact-list-item">
+            <a
+              href="https://www.instagram.com/vh.congtri/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact-link"
+            >
+              <FaInstagram size={35} /> Instagram: vh.congtri (Layze)
+            </a>
+          </li>
+          <li className="contact-list-item">
+            <a href="https://github.com/CongTri282" target="_blank" rel="noopener noreferrer" className="contact-link">
+              <FaGithub size={35} /> GitHub: CongTri282 (Layze)
             </a>
           </li>
         </ul>
@@ -20,4 +53,5 @@ function Contact() {
     </section>
   );
 }
+
 export default Contact;

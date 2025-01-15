@@ -37,11 +37,7 @@ function Home() {
           <a href="https://www.instagram.com/vh.congtri/" target="_blank" rel="noopener noreferrer">
             <FaInstagram size={35} />
           </a>
-          <a
-            href="https://www.linkedin.com/in/ho%C3%A0ng-c%C3%B4ng-tr%C3%AD-v%C3%B5-a6b7b3346/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://www.linkedin.com/in/hoang-cong-tri-vo-a6b7b3346/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin size={35} />
           </a>
           <a href="https://github.com/CongTri282" target="_blank" rel="noopener noreferrer">
