@@ -30,12 +30,14 @@
   display: flex;
   align-items: center;
   font-weight: bold;
-  color: #e52dfde7;
+  color: blueviolet;
   font-family: Suez One;
+  transition: color 0.3s, transform 0.3s;
 }
 
 .logo:hover {
-  color: #a700d1ce;
+  color: rgb(175, 114, 231);
+  transform: scale(1.1);
 }
 
 /* Navigation styles */
@@ -53,20 +55,29 @@
   border-radius: 5px;
   display: flex;
   align-items: center;
-  transition: background-color 0.3s, color 0.3s;
+  transition: transform 0.3s, background-color 0.3s, color 0.3s;
 }
 
 .nav-link:hover {
-  color: #a700d1ce;
+  color: blueviolet;
+  transform: scale(1.1);
 }
 
 .nav-link.active {
-  color: #a700d1ce;
+  color: blueviolet;
   text-decoration: underline;
+  transform: scale(1.1);
 }
 
 .nav-link.contact {
-  background-color: #333333;
+  background-color: blueviolet;
   padding: 16px 20px;
   border-radius: 10px;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.nav-link.contact:hover {
+  background-color: rgb(184, 120, 245);
+  color: rgba(106, 0, 206, 0.808);
+  transform: scale(1.1);
 }

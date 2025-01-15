@@ -1,6 +1,9 @@
+import { useLocation } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
+  const location = useLocation();
+
   return (
     <header className="header">
       <div className="nav-container">
@@ -8,19 +11,19 @@ function Header() {
           Layze
         </a>
         <nav className="nav">
-          <a href="/" className="nav-link">
+          <a href="/" className={`nav-link ${location.pathname === "/" ? "active" : ""}`}>
             Home
           </a>
-          <a href="/skills" className="nav-link">
+          <a href="/skills" className={`nav-link ${location.pathname === "/skills" ? "active" : ""}`}>
             Skills
           </a>
-          <a href="/experience" className="nav-link">
+          <a href="/experience" className={`nav-link ${location.pathname === "/experience" ? "active" : ""}`}>
             Experience
           </a>
-          <a href="/education" className="nav-link">
+          <a href="/education" className={`nav-link ${location.pathname === "/education" ? "active" : ""}`}>
             Education
           </a>
-          <a href="/contact" className="nav-link contact">
+          <a href="/contact" className={`nav-link contact ${location.pathname === "/contact" ? "active" : ""}`}>
             Contact
           </a>
         </nav>
