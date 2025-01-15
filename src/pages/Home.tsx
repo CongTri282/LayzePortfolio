@@ -1,4 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap";
+import Button from "../components/Button";
+import { FaFacebook, FaInstagram, FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 import "./Home.css";
 
 import Layze from "../assets/images/avatar.png";
@@ -28,6 +30,28 @@ function Home() {
           </p>
           <p>I am passionate about learning new technologies and building projects that solve real-world problems.</p>
         </Row>
+        <Row className="home-icons">
+          <a href="https://www.facebook.com/vohoangcongtri" target="_blank" rel="noopener noreferrer">
+            <FaFacebook size={35} />
+          </a>
+          <a href="https://www.instagram.com/vh.congtri/" target="_blank" rel="noopener noreferrer">
+            <FaInstagram size={35} />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/ho%C3%A0ng-c%C3%B4ng-tr%C3%AD-v%C3%B5-a6b7b3346/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin size={35} />
+          </a>
+          <a href="https://github.com/CongTri282" target="_blank" rel="noopener noreferrer">
+            <FaGithub size={35} />
+          </a>
+          <a href="mailto:layzegot@example.com">
+            <FaEnvelope size={35} />
+          </a>
+        </Row>
+        <Button content="Contact Me" href="/contact" />
       </Col>
     </Container>
   );

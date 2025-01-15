@@ -19,17 +19,21 @@
   flex-direction: column;
 }
 
-.home-heading,
-.home-subheading,
-.home-content {
-  margin: 0; /* Remove the gap between each row */
-}
-
 .home-heading {
   display: flex;
   font-size: 50px;
   font-weight: bold;
   font-family: Suez One; 
+}
+
+.home-heading p {
+  margin-top: 90px;
+  margin-bottom: 0;
+}
+
+.home-subheading p {
+  margin-top: 0;
+  margin-bottom: 16px;
 }
 
 .home-subheading {
@@ -43,5 +47,26 @@
   display: flex;
   flex-direction: column;
   text-align: left;
-  font-size: 24px;
+  font-size: 20px;
+}
+
+.home-content p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.home-icons {
+  display: flex;
+  margin-top: 35px;
+  gap: 20px;
+}
+
+.home-icons a {
+  color: blueviolet;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.home-icons a:hover {
+  transform: scale(1.5);
+  color: rgb(211, 116, 252);
 }
