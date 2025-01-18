@@ -1,5 +1,15 @@
 #root {
-  max-width: 1920px;
+  max-width: 120rem;
   margin: 0 auto;
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  min-height: 88.5vh;
+  display: flex;
+  align-items: center;
+  padding-top: 7rem;
 }
