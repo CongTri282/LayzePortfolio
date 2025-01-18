@@ -1,6 +1,7 @@
 import { Container, Col } from "react-bootstrap";
 import { FaJs, FaReact, FaNodeJs, FaGit, FaFigma, FaJava, FaHtml5, FaCss3Alt, FaGithub } from "react-icons/fa";
-import { SiTypescript, SiSharp, SiVite, SiFirebase, SiMysql, SiVercel, SiC } from "react-icons/si";
+import { SiTypescript, SiSharp, SiVite, SiFirebase, SiVercel, SiC } from "react-icons/si";
+import { DiMsqlServer } from "react-icons/di";
 import "./Skills.css";
 
 interface SkillCardProps {
@@ -35,18 +36,18 @@ const SkillSection = ({ title, skills }: SkillSectionProps) => (
 
 function Skills() {
   const programmingLanguages = [
-    { icon: FaJs, name: "JavaScript" },
-    { icon: SiTypescript, name: "TypeScript" },
-    { icon: SiSharp, name: "C#" },
-    { icon: FaJava, name: "Java" },
     { icon: FaHtml5, name: "HTML" },
     { icon: FaCss3Alt, name: "CSS" },
+    { icon: FaJs, name: "JavaScript" },
+    { icon: SiTypescript, name: "TypeScript" },
+    { icon: FaJava, name: "Java" },
     { icon: SiC, name: "C" },
+    { icon: SiSharp, name: "C#" },
   ];
 
   const frameworks = [
-    { icon: FaReact, name: "React" },
     { icon: FaNodeJs, name: "Node.js" },
+    { icon: FaReact, name: "React" },
     { icon: FaReact, name: "React Native" },
     { icon: SiVite, name: "Vite" },
   ];
@@ -56,7 +57,7 @@ function Skills() {
     { icon: FaGithub, name: "GitHub" },
     { icon: FaFigma, name: "Figma" },
     { icon: SiFirebase, name: "Firebase" },
-    { icon: SiMysql, name: "SQL Server" },
+    { icon: DiMsqlServer, name: "SQL Server" },
     { icon: SiVercel, name: "Vercel" },
   ];
 

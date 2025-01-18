@@ -1,44 +1,47 @@
 .home-container {
+  max-width: 1620px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 9rem; /* 150px */
 }
 
 .home-col-image img {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 34rem; /* 550px */
-  max-height: 41rem; /* 660px */
+  max-width: 34rem;
+  max-height: 40rem;
 }
 
 .home-col-content {
-  margin-left: 9rem; /* 150px */
+  margin-left: 9rem;
   display: flex;
   flex-direction: column;
 }
 
 .home-heading {
   display: flex;
-  font-size: 3rem; /* 50px */
+  font-size: 3rem;
   font-weight: bold;
-  font-family: Suez One; 
+  font-family: Suez One;
 }
 
 .home-heading p {
-  margin-top: 6rem; /* 90px */
+  margin-top: 6rem;
   margin-bottom: 0;
 }
 
 .home-subheading p {
   margin-top: 0;
-  margin-bottom: 1rem; /* 16px */
+  margin-bottom: 1rem;
 }
 
 .home-subheading {
   display: flex;
-  font-size: 1.8rem; /* 30px */
+  font-size: 1.8rem;
   font-weight: bold;
   flex-wrap: wrap;
 }
@@ -47,8 +50,9 @@
   display: flex;
   flex-direction: column;
   text-align: left;
-  font-size: 1.2rem; /* 20px */
-  color: rgb(180, 180, 180)  
+  font-size: 1.2rem;
+  color: rgb(180, 180, 180);
+  line-height: 1.5;
 }
 
 .home-content p {
@@ -58,8 +62,8 @@
 
 .home-icons {
   display: flex;
-  margin-top: 2rem; /* 35px */
-  gap: 1rem; /* 20px */
+  margin-top: 2rem;
+  gap: 1rem;
 }
 
 .home-icons a {
@@ -70,4 +74,45 @@
 .home-icons a:hover {
   transform: scale(1.5);
   color: rgb(211, 116, 252);
+}
+
+@media (max-width: 1620px) {
+  .home-container {
+    max-width: 1280px;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .home-container {
+    max-width: 1024px;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .home-container {
+    max-width: 768px;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .home-container {
+    max-width: 640px;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .home-container {
+    max-width: 475px;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .home-container {
+    width: 100%;
+  }
 }
