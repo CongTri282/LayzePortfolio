@@ -12,7 +12,10 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <Router>
-      <Header />
+      <div className="header">
+        <Header />
+      </div>
+      <div className="main-content">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/skills" element={<Skills />} />
@@ -21,6 +24,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<h1>Not Found</h1>} />
       </Routes>
+      </div>
       <Footer />
     </Router>
   );

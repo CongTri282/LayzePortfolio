@@ -1,0 +1,48 @@
+.skils-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.skills-title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: blueviolet;
+  margin-bottom: 20px;
+}
+
+.skills-description {
+  font-size: 22px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.skills-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 150px;
+  flex-wrap: wrap;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.skill-card {
+  border: 2px solid blueviolet;
+  border-radius: 10px;
+  padding: 15px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  gap: 10px;
+  transition: all 0.3s ease;
+}
+
