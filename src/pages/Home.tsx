@@ -1,4 +1,4 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row, Image } from "react-bootstrap";
 import Button from "../components/Button";
 import { FaFacebook, FaInstagram, FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 import "./Home.css";
@@ -9,7 +9,7 @@ function Home() {
   return (
     <Container className="home-container">
       <Col className="home-col-image">
-        <img src={Layze} alt="Avatar" />
+        <Image height={"600px"} width={"500px"} src={Layze} alt="Avatar" />
       </Col>
 
       <Col className="home-col-content">
@@ -24,11 +24,11 @@ function Home() {
           <p style={{ marginLeft: "7px", color: "blueviolet" }}>Full Stack Developer</p>
         </Row>
         <Row className="home-content">
+          <p>This is my portfolio website where I showcase my information, skills, projects and experiences.</p>
           <p>
-            This is my portfolio website. I have experience in building web applications using React, Node.js, Vite and
-            MySQL.
+            I'm currently learning new technologies and building projects to improve my skills. I'm open to new
+            opportunities and would love to work with you. Feel free to contact me.
           </p>
-          <p>I am passionate about learning new technologies and building projects that solve real-world problems.</p>
         </Row>
         <Row className="home-icons">
           <a href="https://www.facebook.com/vohoangcongtri" target="_blank" rel="noopener noreferrer">

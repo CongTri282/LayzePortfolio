@@ -12,8 +12,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 34rem;
-  max-height: 40rem;
+  height: auto;
+  object-fit: cover;
 }
 
 .home-col-content {

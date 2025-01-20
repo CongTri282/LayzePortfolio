@@ -1,6 +1,7 @@
 import { useLocation } from "react-router-dom";
 import "./Header.css";
-import { Container, Nav, Navbar } from "react-bootstrap";
+import { Container, Nav, Navbar, Image } from "react-bootstrap";
+import Logo from "../assets/images/logoup.png";
 
 function Header() {
   const location = useLocation();
@@ -9,7 +10,7 @@ function Header() {
     <Container className="nav-container">
       <Navbar className="nav">
         <Navbar.Brand href="/" className="logo">
-          Layze
+          <Image src={Logo} alt="Logo"  height={60} />
         </Navbar.Brand>
         <Nav className="nav-link-container">
           <Nav.Link href="/" className={`nav-link ${location.pathname === "/" ? "active" : ""}`}>
@@ -21,8 +22,8 @@ function Header() {
           <Nav.Link href="/experience" className={`nav-link ${location.pathname === "/experience" ? "active" : ""}`}>
             Experience
           </Nav.Link>
-          <Nav.Link href="/education" className={`nav-link ${location.pathname === "/education" ? "active" : ""}`}>
-            Education
+          <Nav.Link href="/my-project" className={`nav-link ${location.pathname === "/education" ? "active" : ""}`}>
+            My Projects
           </Nav.Link>
           <Nav.Link href="/contact" className={`nav-link contact ${location.pathname === "/contact" ? "active" : ""}`}>
             Contact

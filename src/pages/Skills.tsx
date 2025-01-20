@@ -20,7 +20,7 @@ const SkillCard = ({ icon: Icon, name }: SkillCardProps) => (
 
 interface SkillSectionProps {
   title: string;
-  skills: { icon: React.ElementType; name: string; }[];
+  skills: { icon: React.ElementType; name: string }[];
 }
 
 const SkillSection = ({ title, skills }: SkillSectionProps) => (
@@ -64,7 +64,9 @@ function Skills() {
   return (
     <Container className="skills-container">
       <h1 className="skills-title">Skills</h1>
-      <p className="skills-description">These are my skills</p>
+      <p className="skills-description">
+        Here are my technical skills and development tools. I'm always excited to learn new technologies.
+      </p>
       <Container className="skills-list-container">
         <SkillSection title="Programming Languages" skills={programmingLanguages} />
         <SkillSection title="Libraries & Frameworks" skills={frameworks} />

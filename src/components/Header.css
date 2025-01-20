@@ -20,17 +20,12 @@
 }
 
 .logo {
-  font-size: 3rem;
   display: flex;
   align-items: center;
-  font-weight: bold;
-  color: blueviolet;
-  font-family: Suez One;
-  transition: color 0.3s, transform 0.3s;
+  transition: transform 0.3s;
 }
 
 .logo:hover {
-  color: rgb(175, 114, 231);
   transform: scale(1.1);
 }
 
@@ -46,7 +41,7 @@
   font-weight: bold;
   color: white;
   padding: 1rem 1.25rem;
-  transition: color 0.3s, transform 0.3s;
+  transition: all 0.3s;
 }
 
 .nav-link:hover {
