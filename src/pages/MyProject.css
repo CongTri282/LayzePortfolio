@@ -1,0 +1,52 @@
+.my-project-container {
+  max-width: 1620px;
+  width: 100vw;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-project-title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: blueviolet;
+  margin-bottom: 1rem;
+}
+
+.my-project-description {
+  color: rgb(200, 200, 200);
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.my-project-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.my-project-card {
+  text-align: left;
+  border: 2px solid blueviolet;
+  border-radius: 15px;
+  padding: 1rem;
+  transition: all 0.3s ease;
+}
+
+.my-project-card:hover {
+  transform: scale(1.1);
+}
+
+.my-project-card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: blueviolet;
+  margin-bottom: 1rem;
+}
+
+.my-project-card-description {
+  font-size: 1rem;
+  color: rgb(180, 180, 180);
+  line-height: 1.5;
+}

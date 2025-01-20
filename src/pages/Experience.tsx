@@ -1,4 +1,4 @@
-import { Container, Row, Col, Card, CardBody } from "react-bootstrap";
+import { Container, Row, Card, CardBody } from "react-bootstrap";
 import "./Experience.css";
 
 function Experience() {

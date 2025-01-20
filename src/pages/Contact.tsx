@@ -5,7 +5,7 @@ import { Container } from "react-bootstrap";
 function Contact() {
   return (
     <Container className="contact-container">
-      <h2 className="section-title">Contact</h2>
+      <h2 className="contact-title">Contact</h2>
       <p className="contact-text">Want to get in touch? I'd love to hear from you. Here's how you can reach me...</p>
       <ul className="contact-list">
         <li className="contact-list-item">

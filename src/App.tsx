@@ -8,6 +8,7 @@ import Skills from "./pages/Skills";
 import Experience from "./pages/Experience";
 import MyProject from "./pages/MyProject";
 import Contact from "./pages/Contact";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
           <Route path="/experience" element={<Experience />} />
           <Route path="/my-project" element={<MyProject />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<h1>Not Found</h1>} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
       <div className="footer">
