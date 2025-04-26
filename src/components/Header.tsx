@@ -10,7 +10,7 @@ function Header() {
     <Container className="nav-container">
       <Navbar className="nav">
         <Navbar.Brand href="/" className="logo">
-          <Image src={Logo} alt="Logo"  height={60} />
+          <Image src={Logo} alt="Logo" height={60} />
         </Navbar.Brand>
         <Nav className="nav-link-container">
           <Nav.Link href="/" className={`nav-link ${location.pathname === "/" ? "active" : ""}`}>
@@ -22,7 +22,7 @@ function Header() {
           <Nav.Link href="/experience" className={`nav-link ${location.pathname === "/experience" ? "active" : ""}`}>
             Experience
           </Nav.Link>
-          <Nav.Link href="/my-project" className={`nav-link ${location.pathname === "/education" ? "active" : ""}`}>
+          <Nav.Link href="/my-project" className={`nav-link ${location.pathname === "/my-project" ? "active" : ""}`}>
             My Projects
           </Nav.Link>
           <Nav.Link href="/contact" className={`nav-link contact ${location.pathname === "/contact" ? "active" : ""}`}>
