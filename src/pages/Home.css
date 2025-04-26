@@ -28,7 +28,7 @@
   font-size: 3rem;
   font-weight: bold;
   font-family: Suez One;
-  animation: fadeIn 1s ease-in-out;
+  animation: fadeIn 1.5s ease-in-out;
 }
 
 .home-heading p {
@@ -47,7 +47,7 @@
   font-weight: bold;
   flex-wrap: wrap;
   line-height: 1;
-  animation: fadeIn 1s ease-in-out;
+  animation: fadeIn 1.5s ease-in-out;
 }
 
 .home-content {
