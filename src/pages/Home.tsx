@@ -18,10 +18,10 @@ function Home() {
           <p style={{ marginLeft: "10px", color: "blueviolet" }}>Layze</p>
         </Row>
         <Row className="home-subheading">
-          <p>I'm a</p>
-          <p style={{ marginLeft: "7px", color: "blueviolet" }}>Web Developer</p>
-          <p style={{ marginLeft: "7px" }}>on my way to become</p>
-          <p style={{ marginLeft: "7px", color: "blueviolet" }}>Full Stack Developer</p>
+          <p style={{ marginRight: "7px" }}>I'm a</p>
+          <p style={{ marginRight: "7px", color: "blueviolet" }}>Web Developer</p>
+          <p style={{ marginRight: "7px"}}>on my way to become</p>
+          <p style={{ color: "blueviolet" }}>Full Stack Developer</p>
         </Row>
         <Row className="home-content">
           <p>This is my portfolio website where I showcase my information, skills, projects and experiences.</p>

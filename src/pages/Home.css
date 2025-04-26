@@ -44,6 +44,7 @@
   font-size: 1.8rem;
   font-weight: bold;
   flex-wrap: wrap;
+  line-height: 1;
 }
 
 .home-content {
@@ -80,6 +81,15 @@
   .home-container {
     max-width: 1280px;
   }
+
+  .home-col-image img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 480px;
+  height: auto;
+  object-fit: cover;
+}
 }
 
 /* xl */
