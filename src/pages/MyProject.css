@@ -11,6 +11,7 @@
   font-weight: bold;
   color: blueviolet;
   margin-bottom: 1rem;
+  animation: fadeIn 1s ease-in-out;
 }
 
 .my-project-description {
@@ -18,34 +19,46 @@
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
   line-height: 1.5;
+  animation: fadeIn 1.2s ease-in-out;
 }
 
 .my-project-content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 3rem;
+  animation: fadeIn 1.5s ease-in-out;
+  margin-bottom: 2rem;
 }
 
 .my-project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   text-align: left;
   border: 2px solid blueviolet;
   border-radius: 15px;
-  padding: 1rem;
+  padding: 1.5rem;
   transition: all 0.3s ease;
+  flex-wrap: wrap;
 }
 
 .my-project-card:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .my-project-card-title {
   font-size: 1.5rem;
   font-weight: bold;
   color: blueviolet;
-  margin-bottom: 1rem;
+  text-wrap: auto;
 }
 
-.my-project-card-description {
+.my-project-card-subtitle {
+  font-size: 1.2rem;
+  color: rgb(150, 150, 150);
+}
+
+.my-project-card-text {
   font-size: 1rem;
   color: rgb(180, 180, 180);
   line-height: 1.5;

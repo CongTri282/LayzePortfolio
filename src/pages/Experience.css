@@ -11,7 +11,7 @@
   font-weight: bold;
   color: blueviolet;
   margin-bottom: 1rem;
-  animation: fadeIn 1.5s ease-in-out;
+  animation: fadeIn 1s ease-in-out;
 }
 
 .experience-description {
@@ -19,7 +19,7 @@
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
   line-height: 1.5;
-  animation: fadeIn 1.5s ease-in-out;
+  animation: fadeIn 1.2s ease-in-out;
 }
 
 .experience-content {

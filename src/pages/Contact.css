@@ -14,6 +14,7 @@
   font-weight: bold;
   color: blueviolet;
   margin-bottom: 1rem;
+  animation: fadeIn 1s ease-in-out;
 }
 
 .contact-text {
@@ -21,6 +22,7 @@
   font-size: 1.5rem;
   margin-bottom: 2rem;
   line-height: 1.5;
+  animation: fadeIn 1.2s ease-in-out;
 }
 
 .contact-list {
@@ -34,6 +36,7 @@
   display: flex;
   margin-bottom: 1.2rem;
   transition: color 0.3s, transform 0.3s;
+  animation: bounceIn 1.5s ease-in-out;
 }
 
 .contact-link {
@@ -47,7 +50,7 @@
 }
 
 .contact-list-item:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
   background-color: rgba(211, 116, 252, 0.219);
   border: 1px solid rgb(211, 116, 252);
 }

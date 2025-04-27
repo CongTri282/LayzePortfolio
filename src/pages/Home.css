@@ -28,7 +28,7 @@
   font-size: 3rem;
   font-weight: bold;
   font-family: Suez One;
-  animation: fadeIn 1.5s ease-in-out;
+  animation: fadeIn 1s ease-in-out;
 }
 
 .home-heading p {
@@ -47,7 +47,7 @@
   font-weight: bold;
   flex-wrap: wrap;
   line-height: 1;
-  animation: fadeIn 1.5s ease-in-out;
+  animation: fadeIn 1.2s ease-in-out;
 }
 
 .home-content {
@@ -74,7 +74,7 @@
 .home-icons a {
   color: blueviolet;
   transition: color 0.3s, transform 0.3s;
-  animation: bounceIn 2s ease-in-out;
+  animation: bounceIn 1.7s ease-in-out;
 }
 
 .home-icons a:hover {

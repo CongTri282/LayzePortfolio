@@ -17,8 +17,8 @@ const ProjectCard = ({ img, title, subtitle, description, link }: ProjectCardPro
       <Card.Title className="my-project-card-title">{title}</Card.Title>
       <Card.Subtitle className="my-project-card-subtitle">Techs: {subtitle}</Card.Subtitle>
       <Card.Text className="my-project-card-text">{description}</Card.Text>
-      <Button content="View Project" href={link} />
     </Card.Body>
+    <Button variant="secondary" content="View Project" href={link} />
   </Card>
 );
 
@@ -28,7 +28,7 @@ function MyProject() {
       img: "placehoder",
       title: "Project 1",
       subtitle: "React, Vite",
-      description: "This is description",
+      description: "This is description for the 1st project. It showcases my skills and technologies I have learned.",
       link: "projectLink",
     },
     {

@@ -47,7 +47,7 @@ function Home() {
             <FaEnvelope size={35} />
           </a>
         </Row>
-        <Button content="Contact Me" href="/contact" data-aos="fade-up" data-aos-delay="800" />
+        <Button variant="primary" content="Contact Me" href="/contact" data-aos="fade-up" data-aos-delay="800" />
       </Col>
     </Container>
   );
